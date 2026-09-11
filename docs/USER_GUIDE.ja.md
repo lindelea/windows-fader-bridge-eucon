@@ -8,6 +8,8 @@ Windows のオーディオミキサーを、独立した EUCON アプリケー�
 
 EuControl やオーディオドライバーを置き換えるものではありません。音量、パン、ミュート、ソロ、選択、メーター、モーターフェーダーのフィードバックをリアルタイムに同期します。
 
+![Windows Fader Bridge の概要画面](images/overview.png)
+
 ## 動作条件
 
 - 64 ビット版 Windows 11。
@@ -29,6 +31,10 @@ EuControl やオーディオドライバーを置き換えるものではあり�
 2. 本アプリを起動します。概要画面にコントローラー接続済みと表示されれば使用できます。
 3. EUCON が別アプリを選択している場合は、このウィンドウを一度前面に出すか、`Ctrl+Alt+Shift+W` を押します。
 4. Cubase、Windows オーディオ、UAD Console を頻繁に切り替える場合は、本アプリが提供する **Windows EUCON**、**UAD EUCON** コマンドを EuControl の Soft Key に割り当てます。
+
+![EuControl でアプリケーションを確認](images/eucontrol-applications.png)
+
+![ブリッジ切り替えコマンドを EuControl Soft Key に割り当てる](images/eucontrol-commands.png)
 
 起動順序は厳密ではありません。Windows Audio または EUCON の準備が遅れても、自動的に待機して再接続します。
 

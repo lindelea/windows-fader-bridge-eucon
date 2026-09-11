@@ -8,6 +8,8 @@ The app presents the Windows audio mixer as a dedicated EUCON application. Use a
 
 It does not replace EuControl or modify your audio driver. Volume, pan, mute, solo, selection, meters, and motor-fader feedback are synchronized in real time.
 
+![Windows Fader Bridge overview](images/overview.png)
+
 ## Requirements
 
 - Windows 11, 64-bit.
@@ -29,6 +31,10 @@ The project does not currently have a paid Windows code-signing certificate, so 
 2. Start the bridge. It is ready when the overview reports that the controller is connected.
 3. If EUCON is focused on another application, bring this window forward once or press `Ctrl+Alt+Shift+W`.
 4. For regular switching between Cubase, Windows audio, and UAD Console, assign the bridge's **Windows EUCON** and **UAD EUCON** commands to EuControl Soft Keys.
+
+![Confirm the application in EuControl](images/eucontrol-applications.png)
+
+![Assign bridge-switching commands to EuControl Soft Keys](images/eucontrol-commands.png)
 
 Startup order is not critical. If Windows Audio or EUCON is not ready during sign-in, the bridge waits and reconnects automatically.
 

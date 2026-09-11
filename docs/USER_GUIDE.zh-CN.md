@@ -8,6 +8,8 @@
 
 它不会替代 EuControl，也不会改变声卡驱动。音量、声像、静音、独奏、选择、峰值表和电机推子反馈会实时同步。
 
+![Windows Fader Bridge 总览页](images/overview.png)
+
 ## 使用前准备
 
 - Windows 11 64 位。
@@ -29,6 +31,10 @@
 2. 启动本程序。主界面显示“控制器已连接”后即可使用。
 3. 如果 EuControl 当前在控制其他软件，把本程序窗口调到前台一次，或按 `Ctrl+Alt+Shift+W`，EUCON 焦点就会切到本程序。
 4. 需要经常在 Cubase、Windows 音频和 UAD Console 之间切换时，可在 EuControl 的 Soft Keys 中选择本应用提供的 **Windows EUCON**、**UAD EUCON** 等命令，再分配到实体键。
+
+![在 EuControl 中确认应用](images/eucontrol-applications.png)
+
+![把桥接切换命令分配到 EuControl Soft Key](images/eucontrol-commands.png)
 
 程序与 Windows 音频服务、EUCON 的启动顺序不再是硬性要求；开机时服务尚未准备好，程序会自动等待并重连。
 
