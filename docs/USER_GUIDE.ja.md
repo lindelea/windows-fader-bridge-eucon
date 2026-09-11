@@ -10,6 +10,14 @@ EuControl やオーディオドライバーを置き換えるものではあり�
 
 ![Windows Fader Bridge の概要画面](images/overview.png)
 
+## 実機での使用
+
+![Avid S3 で Windows オーディオチャンネルを操作](images/eucon-surface-in-use.jpeg)
+
+![iPad の Avid Control で Windows オーディオチャンネルを操作](images/avid-control-ipad.png)
+
+S3 と Avid Control には、同じデバイス非依存の EUCON アプリケーションモデルが表示されます。サーフェスの検出、割り当て、バンクは引き続き EuControl が管理します。
+
 ## 動作条件
 
 - 64 ビット版 Windows 11。

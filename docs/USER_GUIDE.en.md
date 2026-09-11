@@ -10,6 +10,14 @@ It does not replace EuControl or modify your audio driver. Volume, pan, mute, so
 
 ![Windows Fader Bridge overview](images/overview.png)
 
+## Hardware in use
+
+![Avid S3 controlling Windows audio channels](images/eucon-surface-in-use.jpeg)
+
+![Avid Control on iPad controlling Windows audio channels](images/avid-control-ipad.png)
+
+S3 and Avid Control show the same device-independent EUCON application model. EuControl continues to manage surface discovery, assignment, and banking.
+
 ## Requirements
 
 - Windows 11, 64-bit.

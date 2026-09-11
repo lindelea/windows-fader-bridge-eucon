@@ -8,6 +8,16 @@
 
 ![Windows Fader Bridge for EUCON overview](docs/images/overview.png)
 
+## 实机展示 ・ Hardware in use ・ 実機での使用
+
+![Windows audio applications and devices on an Avid S3 EUCON surface](docs/images/eucon-surface-in-use.jpeg)
+
+Windows 音频通道在 Avid S3 上的实际运行状态。・ Windows audio channels running on an Avid S3. ・ Avid S3 で Windows オーディオチャンネルを操作している実機例。
+
+![Windows audio applications and devices in Avid Control on iPad](docs/images/avid-control-ipad.png)
+
+iPad 版 Avid Control 使用同一个 Windows 混音模型。・ Avid Control on iPad uses the same Windows mixer model. ・ iPad の Avid Control でも同じ Windows ミキサーモデルを利用できます。
+
 ## 简体中文
 
 使用 Avid S3、Avid Control 或其他兼容 EUCON 控制台，直接控制 Windows 主音量、输入设备以及每个正在发声的应用。

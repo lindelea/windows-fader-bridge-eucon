@@ -10,6 +10,14 @@
 
 ![Windows Fader Bridge 总览页](images/overview.png)
 
+## 实机效果
+
+![Avid S3 控制 Windows 音频通道](images/eucon-surface-in-use.jpeg)
+
+![iPad 上的 Avid Control 控制 Windows 音频通道](images/avid-control-ipad.png)
+
+S3 与 Avid Control 显示的是同一个设备无关的 EUCON 应用模型；控制台的发现、分配和翻页仍由 EuControl 管理。
+
 ## 使用前准备
 
 - Windows 11 64 位。
