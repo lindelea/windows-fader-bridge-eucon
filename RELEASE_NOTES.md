@@ -13,3 +13,6 @@ First public user release. Includes a Windows 11 x64 installer, English/Chinese 
 一般ユーザー向け初回正式リリースです。Windows 11 x64 インストーラー、中英対応アプリ画面、中英日ユーザーガイド、Windows Audio と EUCON のリアルタイム双方向操作を収録しています。Avid S3 と Avid Control で確認済みです。サインイン時に Windows Audio または EUCON の起動が遅れても、自動的に待機・再接続します。
 
 The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-EUCON-v1.0.0-Setup-x64.exe`  
+SHA-256: `8C822D5B5ECDD481B0B3B597378EBE0BE459E646A9A092B30BA1AE8135FF7257`
