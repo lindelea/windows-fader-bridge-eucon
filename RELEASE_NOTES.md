@@ -1,3 +1,24 @@
+# v1.0.2
+
+## 简体中文
+
+修复 Windows 音频通道新增、移除或重新排序后，实体控制器上部分推子可能落到底或保持旧位置，而应用界面与 Windows 音量仍然正确的问题。桥接器现在会在通道结构更新完成后，主动将所有保留通道的当前推子及控制状态重新发送给 EUCON。同步会避开正在触摸的推子和尚未完成的控制写入，不会加入周期性刷新，也不会增加操作延迟。
+
+## English
+
+Fixes physical faders that could fall to the bottom or remain at an old position after Windows audio channels were added, removed, or reordered, even though the app and Windows still showed the correct volume. After a channel-list update, the bridge now republishes the current fader and control state for all retained channels to EUCON. Recovery waits for active touches and pending control writes, without periodic refreshes or added control latency.
+
+## 日本語
+
+Windows のオーディオチャンネルが追加・削除・並べ替えされた後、アプリと Windows の音量表示は正しいまま、一部の実機フェーダーが最下部に落ちたり古い位置に残ったりする問題を修正しました。チャンネル構成の更新後、保持されている全チャンネルの現在のフェーダーおよび操作状態を EUCON へ再送します。タッチ中のフェーダーや未完了の操作を避けて同期し、周期的な再送や操作遅延は追加しません。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-EUCON-v1.0.2-Setup-x64.exe`
+SHA-256: `9079561CD003BAED95FFD803D551C3A7E04BF7E418FD2187F6310E3C90C54FA0`
+
+---
+
 # v1.0.1
 
 ## 简体中文
