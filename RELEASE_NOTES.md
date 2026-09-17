@@ -14,7 +14,7 @@ UAD など別の EUCON アプリを長時間フォーカスした後、Windows F
 
 The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
 
-`Windows-Fader-Bridge-for-EUCON-v1.0.1-Setup-x64.exe`  
+`Windows-Fader-Bridge-for-EUCON-v1.0.1-Setup-x64.exe`
 SHA-256: `0B9F59835552E9FED93AFBE8A0FFBBC2D552DAD6FFFCF3AEF9BE464B3E51B48E`
 
 ---
