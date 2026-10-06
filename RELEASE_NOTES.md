@@ -1,3 +1,33 @@
+# v1.0.3
+
+## 简体中文
+
+改善打开或关闭 Discord、Chrome 等应用时，Master 等实体推子意外跳动或与 Windows 音量不同步的问题。新增通道会先取得正确音量再显示在控制器上；普通通道增删不再触发整组推子重发。Windows 暂时读不到音量时，不会将其误当成 0，也不会用旧值打断正在进行的操作。补充推子状态检查和诊断记录，不增加周期性电机重发或人为操作延迟。
+
+下载下方安装包，退出桥接器后覆盖安装即可，原有设置保留。长时间运行中的偶发情况仍会持续跟踪；若再次出现，请记录时间并保留日志。
+
+## English
+
+Improves unexpected Master and other physical-fader movement or stale feedback when apps such as Discord or Chrome open or close. New channels receive the correct volume before appearing on the surface; ordinary channel additions and removals no longer trigger a full fader replay. A temporary Windows volume-read failure is not treated as zero, and stale values cannot interrupt an ongoing gesture. Adds fader-state checks and diagnostics without periodic motor resends or deliberate control latency.
+
+Close the bridge and install over the existing version; your settings are preserved. Intermittent behavior during long sessions remains under observation. If it recurs, note the time and retain the logs.
+
+## 日本語
+
+Discord や Chrome などの起動・終了時に、Master などの実機フェーダーが不意に動いたり、Windows の音量と同期しなくなったりする問題を改善しました。新しいチャンネルには正しい音量を設定してからサーフェスに表示し、通常のチャンネル追加・削除では全フェーダーを再送しません。Windows から音量を一時的に取得できない場合も 0 と誤認せず、古い値で操作中のフェーダーを戻さないようにしました。周期的なモーター再送や意図的な操作遅延を追加せず、状態確認と診断記録を強化しています。
+
+ブリッジを終了してから上書きインストールしてください。設定は引き継がれます。長時間使用時の偶発的な挙動は引き続き確認します。再発した場合は時刻を記録し、ログを保存してください。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-EUCON-v1.0.3-Setup-x64.exe`
+SHA-256: `BE991E3242CD638F46CE5571F4366B4FDD36E05A4E795ACDBB3A7232D0FE53EF`
+
+- [User guides / 使用手册 / ユーザーガイド](https://github.com/lindelea/windows-fader-bridge-eucon)
+- [Exact source for v1.0.3](https://github.com/lindelea/windows-fader-bridge/tree/windows-eucon-v1.0.3)
+
+---
+
 # v1.0.2
 
 ## 简体中文
