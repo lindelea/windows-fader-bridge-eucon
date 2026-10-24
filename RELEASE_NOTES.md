@@ -1,3 +1,33 @@
+# v1.0.4
+
+## 简体中文
+
+修复播放器暂时没有提供播放进度时，桥接器可能崩溃的问题，并加强播放状态和控制信息缺失时的安全处理。缺少部分显示信息时，仍保留可用的播放器信息与操作；可选显示字段读取失败，也不会清掉已经有效的进度和跳转能力。Windows 音量、推子、声像和峰值反馈逻辑不变，不增加人为操作延迟。
+
+退出旧版后覆盖安装即可，原有设置保留。这是应用程序稳定性修正，不代表已证实解决 Windows 系统蓝屏。
+
+## English
+
+Fixes a crash when a player temporarily supplies no timeline, and safely handles missing playback/control information. Available player information and controls are retained when only some display fields are absent. Failure to read optional display fields no longer discards valid position and seeking information. Windows volume, fader, pan and meter behavior is unchanged, with no deliberate control latency added.
+
+Close the old version and install over it; your settings are preserved. This is an application stability update, not a confirmed fix for Windows blue screens.
+
+## 日本語
+
+プレーヤーが再生位置情報を一時的に提供しない場合のクラッシュを修正し、再生状態や操作情報が欠けた場合の処理も安全にしました。一部の表示情報が取得できなくても利用可能な情報や操作は維持し、任意の表示項目の取得失敗で、有効な再生位置やシーク機能を失わないようにしました。Windows 音量、フェーダー、パン、メーターの動作は変更せず、意図的な操作遅延も追加していません。
+
+旧版を終了してから上書きインストールしてください。設定は引き継がれます。これはアプリの安定性更新であり、Windows のブルースクリーンを解消したと確認された修正ではありません。
+
+The installer and application are currently unsigned. Verify the SHA-256 value shown below after downloading.
+
+`Windows-Fader-Bridge-for-EUCON-v1.0.4-Setup-x64.exe`
+SHA-256: `665320312E0421FB755D7936872924458AE33EFE141B0730FAF6A12CE406BF15`
+
+- [User guides / 使用手册 / ユーザーガイド](https://github.com/lindelea/windows-fader-bridge-eucon)
+- [Exact source for v1.0.4](https://github.com/lindelea/windows-fader-bridge/tree/windows-eucon-v1.0.4)
+
+---
+
 # v1.0.3
 
 ## 简体中文
